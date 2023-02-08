@@ -1,0 +1,34 @@
+header
+{
+    background-color: #1B5489;
+    a
+    {
+        text-decoration: none;
+        color: #A5C0D3;
+        &:hover
+        {
+            color:white;
+        }
+    }
+}
+
+.user-chalk
+{
+    color:white;
+    font-size: 3vw;
+}
+
+.header
+{
+    font-size: 5vw;
+}
+
+.bg-lightblue
+{
+    background-color: #CCE6FF;
+}
+
+.text-blue
+{
+    color:#5978A1;
+}

@@ -1,0 +1,133 @@
+header
+{
+    background-color: #1B5489;
+    a
+    {
+        text-decoration: none;
+        color: #A5C0D3;
+        &:hover
+        {
+            color:white;
+        }
+    }
+}
+
+.user-chalk
+{
+    color:white;
+    font-size: 3vw;
+}
+
+.header
+{
+    font-size: 5vw;
+}
+
+.circle-list
+{
+    padding:0;
+    list-style-type: none;
+    li
+    {
+        &:nth-child(1)
+        {
+            &::after
+            {
+                content:'';
+                vertical-align: middle;
+                display:inline-block;
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                border:1px solid black;
+                background-color: #F5F5F5;
+            }
+        }
+
+        &:nth-child(2)
+        {
+            &::after
+            {
+                content:'';
+                vertical-align: middle;
+                display:inline-block;
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                border:1px solid black;
+                background-color: #70D186;
+            }
+        }
+
+        &:nth-child(3)
+        {
+            &::after
+            {
+                content:'';
+                vertical-align: middle;
+                display:inline-block;
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                border:1px solid black;
+                background-color: #36AFBF;
+            }
+        }
+
+        &:nth-child(4)
+        {
+            &::after
+            {
+                content:'';
+                vertical-align: middle;
+                display:inline-block;
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                border:1px solid black;
+                background-color: #F58490;
+            }
+        }
+    }
+}
+
+.bg-blue
+{
+    background-color: #37B0C1;
+}
+
+.bg-red
+{
+    background-color: #F98590;
+}
+
+.bg-green
+{
+    background-color:#6FD083;
+}
+
+.file-input
+{
+    .col
+    {
+        &:nth-child(1)
+        {
+            cursor: pointer;
+            transition: .3s all;
+            &:hover
+            {
+                background-color: lightgreen;
+            }
+        }
+
+        &:nth-child(2)
+        {
+            cursor: pointer;
+            transition: .3s all;
+            &:hover
+            {
+                background-color: lightcoral;
+            }
+        }
+    }
+}
